@@ -1,8 +1,8 @@
 # What is it?
 
-The photo site [500px.com](http://500px.com) has gorgeous photos, but no way to easily traverse
-through the full-size images without losing the photos list context. With this bookmarklet installed
-into your browser toolbar, you can navigate to lists like:
+The photo site [500px.com](http://500px.com) has gorgeous pictures, but no way to easily traverse
+through the full-size images without losing the pictures list context. With this bookmarklet
+installed into your browser toolbar, you can navigate to lists like:
 
 * [http://500px.com/popular](http://500px.com/popular),
 * [http://500px.com/editors](http://500px.com/editors), or
@@ -11,7 +11,7 @@ into your browser toolbar, you can navigate to lists like:
 And then, with one click, view the slide show of all the "Popular", "Editor's choice", or "Top Week
 Favorites" pictures respectively.
 
-Should also work with a selected photographer profile page, or with your own "Favorites" list.
+Also works with a selected photographer's profile page, or with your own "Favorites" list.
 
 #License: MIT
 
