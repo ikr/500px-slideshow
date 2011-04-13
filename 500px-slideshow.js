@@ -5,7 +5,7 @@ var ikr500px = function (jQuery) {
         },
         
         slideshow: function () {
-            
+            console.log("Slideshow requested");
         }
     };
 };
