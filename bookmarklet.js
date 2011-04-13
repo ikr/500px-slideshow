@@ -10,4 +10,6 @@ $("body").append(
     '<script src="http://krechetov.net/~ikr/jquery-lightbox/jquery.lightbox.js"></script>'
 );
 
-ikr500px.slideshow();
+$(document).ready(function () {
+    ikr500px.slideshow();
+});
