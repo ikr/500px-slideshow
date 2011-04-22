@@ -22,7 +22,12 @@ ikr500px.runTests = function ($) {
     module("Lightbox container");
 
     test("populateLightboxContainer creates the root div", function () {
-        ikr500px.populateLightboxContainer();
-        strictEqual(1, $("body > #ikr500px-lightbox-root").length);
+        ikr500px.populateLightboxContainer("#qunit-fixture");
+        strictEqual($("#qunit-fixture > #ikr500px-lightbox-root").length, 1);
+    });
+    
+    test("populateLightboxContainer's root div is invisible", function () {
+        ikr500px.populateLightboxContainer("#qunit-fixture");
+        strictEqual($("#ikr500px-lightbox-root").css("display"), "none");
     });
 };

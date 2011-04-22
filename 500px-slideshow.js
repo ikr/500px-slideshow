@@ -7,8 +7,8 @@ var ikr500px = {
         return thumbnailUrl.substr(0, thumbnailUrl.lastIndexOf("/")) + "/5";
     },
     
-    populateLightboxContainer: function () {
-        jQuery('body').append('<div id="ikr500px-lightbox-root"/>');
+    populateLightboxContainer: function (appendTo) {
+        jQuery(appendTo).append('<div id="ikr500px-lightbox-root" style="display: none"/>');
     },
     
     slideshow: function () {
