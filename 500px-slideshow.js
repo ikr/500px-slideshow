@@ -8,10 +8,22 @@ var ikr500px = {
     },
     
     populateLightboxContainer: function (appendTo) {
+        jQuery("#ikr500px-lightbox-root").remove();
         jQuery(appendTo).append('<div id="ikr500px-lightbox-root" style="display: none"/>');
+        
+        var that = this;
+        
+        this.thumbnailImgNodes().each(function () {
+            var url = that.fullSizeImageUrl(jQuery(this).attr("src"));
+            
+            jQuery("#ikr500px-lightbox-root").append(
+                '<a href="' + url + '" rel="lightbox[ikr500px-slideshow]" class="ikr500px-lightbox-a">' + url + '</a>'
+            );
+        });
     },
     
     slideshow: function () {
-        console.log("Slideshow requested");
+        this.populateLightboxContainer();
+        jQuery(".ikr500px-lightbox-a").first().trigger("click");
     }
 };
