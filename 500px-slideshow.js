@@ -23,7 +23,7 @@ var ikr500px = {
     },
     
     slideshow: function () {
-        this.populateLightboxContainer();
+        this.populateLightboxContainer('body');
         jQuery(".ikr500px-lightbox-a").first().trigger("click");
     }
 };
