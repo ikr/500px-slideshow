@@ -8,10 +8,18 @@ installed into your browser toolbar, you can navigate to lists like:
 * [http://500px.com/editors](http://500px.com/editors), or
 * [http://500px.com/favorites/week](http://500px.com/favorites/week)
 
-And then, with one click, view the slide show of all the "Popular", "Editor's choice", or "Top Week
-Favorites" pictures respectively.
+And then, with one click, view the slide show of the "Popular", "Editor's choice", or "Top Week
+Favorites" pictures respectively. For now, only the current page's photos are displayed.
 
 Also works with a selected photographer's profile page, or with your own "Favorites" list.
+
+# Demo
+
+[http://vimeo.com/22758035](http://vimeo.com/22758035)
+
+# Installation
+
+[http://krechetov.net/~ikr/500px-slideshow/bookmarklet.html](http://krechetov.net/~ikr/500px-slideshow/bookmarklet.html)
 
 #License: MIT
 
