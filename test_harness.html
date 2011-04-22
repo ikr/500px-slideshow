@@ -4,9 +4,14 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" type="text/css" media="screen" />
         <script src="http://code.jquery.com/qunit/git/qunit.js"></script>
-        <script src="bookmarklet.js"></script>
         <script src="500px-slideshow.js"></script>
         <script src="tests.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+                ikr500px.runTests(jQuery);
+            });
+        </script>
     </head>
     
     <body>
