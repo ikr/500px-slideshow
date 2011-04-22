@@ -25,7 +25,7 @@ var ikr500px = {
     slideshow: function () {
         this.populateLightboxContainer('body');
 
-        jQuery(".ikr500px-lightbox-a").lightbox({
+        jQuery(".ikr500px-lightbox-a").first().lightbox({
             fileLoadingImage: "http://krechetov.net/~ikr/jquery-lightbox/images/loading.gif",
             fileBottomNavCloseImage: "http://krechetov.net/~ikr/jquery-lightbox/images/closelabel.gif"
             
