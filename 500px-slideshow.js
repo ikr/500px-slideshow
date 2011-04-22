@@ -7,9 +7,9 @@ var ikr500px = {
         return thumbnailUrl.substr(0, thumbnailUrl.lastIndexOf("/")) + "/5";
     },
     
-    populateLightboxContainer: function (appendTo) {
+    populateLightboxContainer: function (prependTo) {
         jQuery("#ikr500px-lightbox-root").remove();
-        jQuery(appendTo).append('<div id="ikr500px-lightbox-root" style="display: none"/>');
+        jQuery(prependTo).prepend('<div id="ikr500px-lightbox-root" style="display: none"/>');
         
         var that = this;
         
@@ -25,7 +25,7 @@ var ikr500px = {
     slideshow: function () {
         this.populateLightboxContainer('body');
 
-        jQuery(".ikr500px-lightbox-a").first().lightbox({
+        jQuery(".ikr500px-lightbox-a").lightbox({
             fileLoadingImage: "http://krechetov.net/~ikr/jquery-lightbox/images/loading.gif",
             fileBottomNavCloseImage: "http://krechetov.net/~ikr/jquery-lightbox/images/closelabel.gif"
             
