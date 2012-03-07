@@ -1,6 +1,6 @@
 var ikr500px = {
     thumbnailImgNodes: function () {
-        return jQuery("div.thumb > a.image > img");
+        return jQuery("div.photo > a > img");
     },
 
     fullSizeImageUrl: function (thumbnailUrl) {
