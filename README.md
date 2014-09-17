@@ -17,11 +17,11 @@ pictures respectively. Also works with a selected photographer's profile page, o
 
 # Installation
 
-[http://krechetov.net/~ikr/500px-slideshow/bookmarklet.html](http://krechetov.net/~ikr/500px-slideshow/bookmarklet.html)
+[http://ikr.su/h/500px-slideshow/bookmarklet.html](http://ikr.su/h/500px-slideshow/bookmarklet.html)
 
 #License: MIT
 
-    Copyright (C) 2011 by Ivan Krechetov, http://krechetov.net
+    Copyright (C) 2011 by Ivan Krechetov, http://ikr.su
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
